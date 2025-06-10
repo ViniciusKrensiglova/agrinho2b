@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f9f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #2e8b57;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 30px;
+  }
+  
+  .sessao-natureza {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .sessao-natureza img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .texto {
+    max-width: 600px;
+  }
+  
+  footer {
+    background-color: #2e8b57;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+  }
+  
+  footer a {
+    color: #d4fcd6;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
